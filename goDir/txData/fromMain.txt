@@ -1,0 +1,610 @@
+
+ ┌───────────────────────────────────────────────────┐  ┌───────────────────────────────────────────────────┐
+ │                    Fiber v2.7.1                   │  │ Child PIDs ... 28112, 28113, 28114, 28116, 28118  │
+ │               http://127.0.0.1:3000               │  │ 28119, 28121, 28122, 28123, 28125, 28129, 28133   │
+ │       (bound on host 0.0.0.0 and port 3000)       │  │ 28134, 28135, 28139, 28145, 28148, 28164, 28202   │
+ │                                                   │  │ 28237                                             │
+ │ Handlers ............. 1  Processes .......... 20 │  └───────────────────────────────────────────────────┘
+ │ Prefork ........ Enabled  PID ............. 28105 │ 
+ └───────────────────────────────────────────────────┘ 
+
+ Hash: 0x28d2d9a0a8e6c38dfd3792c18f2c5ce26425798a014eb0dba8642fea98db59e3
+ IsSell: true
+ TokenContractAddress: 0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2 
+ TokenPairAddress: 0xA478c2975Ab1Ea89e8196811F51A7B7Ade33eB11
+ AmountIn: 670116059632657970339
+ AmountInMax 0
+ AmountOut: 0
+ AmountOutMin: 280240771195762016
+ Gas Price: 48000000000
+
+ Hash: 0x1c0d904fd5dc56060cc06774da8487d3cf33abdfa04b35b8e1ba5956e1e42b31
+ IsSell: false
+ TokenContractAddress: 0xC40AF1E4fEcFA05Ce6BAb79DcD8B373d2E436c4E 
+ TokenPairAddress: 0x9314941C11d6DEe1d7bf93113eB74D4718949F3b
+ AmountIn: 0
+ AmountInMax 0
+ AmountOut: 1400000000000000000000
+ AmountOutMin: 0
+ Gas Price: 52800000000
+
+ Hash: 0x99b8de8222b926b895f275c82d462198ca693102727dd9bba53ef7bd9f26fabd
+ IsSell: false
+ TokenContractAddress: 0x1E18821E69B9FAA8e6e75DFFe54E7E25754beDa0 
+ TokenPairAddress: 0x41Dbf7a71Ba3F69650cd88C249e422da3845479d
+ AmountIn: 0
+ AmountInMax 0
+ AmountOut: 30000000000000000000000
+ AmountOutMin: 0
+ Gas Price: 43000000000
+
+ Hash: 0x760c48410c632de80eeec198296505f2430b0dc2bfd80065739c532fda850e31
+ IsSell: false
+ TokenContractAddress: 0xc944E90C64B2c07662A292be6244BDf05Cda44a7 
+ TokenPairAddress: 0x2e81eC0B8B4022fAC83A21B2F2B4B8f5ED744D70
+ AmountIn: 4000000000000000000000
+ AmountInMax 0
+ AmountOut: 0
+ AmountOutMin: 2373366995699472489804
+ Gas Price: 70000000000
+
+ Hash: 0xbc110c65fc3003e34f9c8fed8e7c718386b88262f184f829eaa91c3820086d5c
+ IsSell: true
+ TokenContractAddress: 0xDBdDf072d7aae7B9288e31A4eebe6C54e3a143b1 
+ TokenPairAddress: 0x06441D79d21fF7AB135E7a4052025834a43A6fE3
+ AmountIn: 24502566897389997654016
+ AmountInMax 0
+ AmountOut: 0
+ AmountOutMin: 899025423728813568
+ Gas Price: 50000000000
+
+ Hash: 0xf33e8f4720c31d62e0e73c489a184ebb3f0706c230e0b5155004db16e8ead783
+ IsSell: true
+ TokenContractAddress: 0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2 
+ TokenPairAddress: 0xBb2b8038a1640196FbE3e38816F3e67Cba72D940
+ AmountIn: 0
+ AmountInMax 2328593
+ AmountOut: 500000000000000000
+ AmountOutMin: 0
+ Gas Price: 53000000000
+
+ Hash: 0xf9ea8dd83a98d7f5da9e29322476eba562c84642ec0b2bb62a20dc227410401e
+ IsSell: false
+ TokenContractAddress: 0x16ECCfDbb4eE1A85A33f3A9B21175Cd7Ae753dB4 
+ TokenPairAddress: 0x41Dbf7a71Ba3F69650cd88C249e422da3845479d
+ AmountIn: 5618772420535350407
+ AmountInMax 0
+ AmountOut: 0
+ AmountOutMin: 96996207720405556248
+ Gas Price: 49000000000
+
+ Hash: 0xa9028f04991cb502e27f83b733ee4cae362aa716268543050df58485f219bad9
+ IsSell: false
+ TokenContractAddress: 0x0E192d382a36De7011F795Acc4391Cd302003606 
+ TokenPairAddress: 0x41Dbf7a71Ba3F69650cd88C249e422da3845479d
+ AmountIn: 7000000000
+ AmountInMax 0
+ AmountOut: 0
+ AmountOutMin: 837996009142875775882
+ Gas Price: 50000000000
+
+ Hash: 0xb3e2f8f645ef292a5d59c3444d28e05be51cf7022e1052045d3a05883184d237
+ IsSell: true
+ TokenContractAddress: 0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2 
+ TokenPairAddress: 0xcDC477f2ccFf2d8883067c9F23cf489F2B994d00
+ AmountIn: 300000000000000000000000000
+ AmountInMax 0
+ AmountOut: 0
+ AmountOutMin: 356409400207048622
+ Gas Price: 51000000000
+
+ Hash: 0x4b25346373031a3ebdf4f3aa3f06908154d07efbd9b5be8aae49319cd085dd47
+ IsSell: true
+ TokenContractAddress: 0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2 
+ TokenPairAddress: 0x76AD8bc4f1c51C1d2525a4F45FA31A66b933273a
+ AmountIn: 61606130590540360807851
+ AmountInMax 0
+ AmountOut: 0
+ AmountOutMin: 2711496864104749154
+ Gas Price: 51000000000
+
+ Hash: 0x626315696cd8038227b2c5e20c6cd455eba6b36283d1c1776fd506d498a4d929
+ IsSell: false
+ TokenContractAddress: 0x31060C59987F231862d1F967B051DC8a0ACeF142 
+ TokenPairAddress: 0x41Dbf7a71Ba3F69650cd88C249e422da3845479d
+ AmountIn: 200000000000000000000
+ AmountInMax 0
+ AmountOut: 0
+ AmountOutMin: 1634562765786965429
+ Gas Price: 45000000000
+
+ Hash: 0xd11df9371a0b6a0f45468552fd28be84e1374b7ce40d5c8bfb4fa7bc6b09ef4d
+ IsSell: true
+ TokenContractAddress: 0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2 
+ TokenPairAddress: 0xaE7c579ec3Cce8CCdf3386Cf8130b57e46B6F070
+ AmountIn: 1005000000000000000000
+ AmountInMax 0
+ AmountOut: 0
+ AmountOutMin: 863229553102695075
+ Gas Price: 39000000000
+
+ Hash: 0xe3e488bb6ceb5e5a2665e14c79b4f67fa0e45ba3d25d06149a72309f2c5d1130
+ IsSell: true
+ TokenContractAddress: 0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2 
+ TokenPairAddress: 0xDA3A20aaD0C34fA742BD9813d45Bbf67c787aE0b
+ AmountIn: 651633014477179666026309528
+ AmountInMax 0
+ AmountOut: 0
+ AmountOutMin: 400982683081440112
+ Gas Price: 45000000000
+
+ Hash: 0xd44cde0703f5298be4ed92dd3aa691b54186cc1d21acea315d08c7860ebfe1a0
+ IsSell: false
+ TokenContractAddress: 0x8290333ceF9e6D528dD5618Fb97a76f268f3EDD4 
+ TokenPairAddress: 0x41Dbf7a71Ba3F69650cd88C249e422da3845479d
+ AmountIn: 0
+ AmountInMax 1370062152237288704
+ AmountOut: 24092234375000001347584
+ AmountOutMin: 0
+ Gas Price: 78040000000
+
+ Hash: 0x84814044cd7c45c7aab7e58ae1bce127af61c08e9658530b18764580cad5fee3
+ IsSell: false
+ TokenContractAddress: 0x15B543e986b8c34074DFc9901136d9355a537e7E 
+ TokenPairAddress: 0x41Dbf7a71Ba3F69650cd88C249e422da3845479d
+ AmountIn: 1000000
+ AmountInMax 0
+ AmountOut: 0
+ AmountOutMin: 15066682377160682102953
+ Gas Price: 103000000000
+
+ Hash: 0x66fcf931d49957d406fea7134ccd525d58ffcb968fcf02903025d402f73b387e
+ IsSell: false
+ TokenContractAddress: 0x389999216860AB8E0175387A0c90E5c52522C945 
+ TokenPairAddress: 0x41Dbf7a71Ba3F69650cd88C249e422da3845479d
+ AmountIn: 2100000000
+ AmountInMax 0
+ AmountOut: 0
+ AmountOutMin: 2466341791993867706
+ Gas Price: 49000000000
+
+ Hash: 0x166890c2972b69215b6625427184c46ce7424c66b2684e43c756cd6da9c9efef
+ IsSell: true
+ TokenContractAddress: 0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2 
+ TokenPairAddress: 0x60cdd16546EB1D633C8ba1C1148Eb56aAdacA16a
+ AmountIn: 603078973431765066566
+ AmountInMax 0
+ AmountOut: 0
+ AmountOutMin: 454589429308028639
+ Gas Price: 51000000000
+
+ Hash: 0xf359d63f123d147554cbb95dc6162efdbe252be935d3f3323ce693ad9c3b824c
+ IsSell: false
+ TokenContractAddress: 0x2B89bF8ba858cd2FCee1faDa378D5cd6936968Be 
+ TokenPairAddress: 0x41Dbf7a71Ba3F69650cd88C249e422da3845479d
+ AmountIn: 0
+ AmountInMax 0
+ AmountOut: 111000000
+ AmountOutMin: 0
+ Gas Price: 47000000000
+
+ Hash: 0xebcd2d905675bbcadbe5630d42ed16e0b75ec68945f8faf609cca7a3223c1144
+ IsSell: false
+ TokenContractAddress: 0xC52e23194476B1dD39408cB0B9D935dA8e6Db3d6 
+ TokenPairAddress: 0xac119171D4Dcae3d0C9F4dD8D721bE0093662252
+ AmountIn: 0
+ AmountInMax 0
+ AmountOut: 0
+ AmountOutMin: 627989040432363346199
+ Gas Price: 51000000000
+
+ Hash: 0xd9252304bc134f0d9588781be92933056c287ecaaffc8207efc07902fdc14a56
+ IsSell: false
+ TokenContractAddress: 0x761D38e5ddf6ccf6Cf7c55759d5210750B5D60F3 
+ TokenPairAddress: 0x41Dbf7a71Ba3F69650cd88C249e422da3845479d
+ AmountIn: 0
+ AmountInMax 0
+ AmountOut: 0
+ AmountOutMin: 1106029644887201507308972087
+ Gas Price: 48000000000
+
+ Hash: 0xb74b9b86bb53fe5a1bb3c5c82c9c27ebd32d1a4e0b0a5092abd6dc4b86b50dfa
+ IsSell: false
+ TokenContractAddress: 0x111111111117dC0aa78b770fA6A738034120C302 
+ TokenPairAddress: 0x41Dbf7a71Ba3F69650cd88C249e422da3845479d
+ AmountIn: 240000000
+ AmountInMax 0
+ AmountOut: 0
+ AmountOutMin: 25435942168975339001
+ Gas Price: 45000000000
+
+ Hash: 0x0a9b374776a0530b6766f0dba3072f62440015191393dc1f306eac33bf18485c
+ IsSell: false
+ TokenContractAddress: 0x6db14800250ab560263681629D132Ecac570Df77 
+ TokenPairAddress: 0x41Dbf7a71Ba3F69650cd88C249e422da3845479d
+ AmountIn: 0
+ AmountInMax 0
+ AmountOut: 0
+ AmountOutMin: 14503977282063853464820167
+ Gas Price: 47000000000
+
+ Hash: 0x08b4ddabe9dadd1342d303f129cc2af0035e7e5ee79a4fd9e66c390ac1cd4439
+ IsSell: false
+ TokenContractAddress: 0xE09fB60E8D6e7E1CEbBE821bD5c3FC67a40F86bF 
+ TokenPairAddress: 0x5d2c95651E0EE953b9aBD8eC47Ce2A165c852aE9
+ AmountIn: 0
+ AmountInMax 0
+ AmountOut: 0
+ AmountOutMin: 135920881180195064157821795
+ Gas Price: 48000000000
+
+ Hash: 0xe8dce8223cca21a3a035844f20bb191aff386229101516521f56656263f4f48f
+ IsSell: false
+ TokenContractAddress: 0x95aD61b0a150d79219dCF64E1E6Cc01f0B64C4cE 
+ TokenPairAddress: 0x41Dbf7a71Ba3F69650cd88C249e422da3845479d
+ AmountIn: 0
+ AmountInMax 0
+ AmountOut: 0
+ AmountOutMin: 56901453290705036378292449
+ Gas Price: 49000000000
+
+ Hash: 0x6d4e86258f5669109ef898337f19deb2ad7180320351ca69fa369f62c06369b0
+ IsSell: false
+ TokenContractAddress: 0x29502fE4d233EF0b45C3647101Fa1252cE0634BD 
+ TokenPairAddress: 0x41Dbf7a71Ba3F69650cd88C249e422da3845479d
+ AmountIn: 0
+ AmountInMax 0
+ AmountOut: 1000000000000000
+ AmountOutMin: 0
+ Gas Price: 48000000000
+
+ Hash: 0xe527fc5853afaa025f489fdb700882502041ac21a11281f4450aeb692229fca5
+ IsSell: false
+ TokenContractAddress: 0x1F8A626883d7724DBd59eF51CBD4BF1Cf2016D13 
+ TokenPairAddress: 0x41Dbf7a71Ba3F69650cd88C249e422da3845479d
+ AmountIn: 0
+ AmountInMax 0
+ AmountOut: 0
+ AmountOutMin: 7832880145737593639981
+ Gas Price: 52800000000
+
+ Hash: 0xa41bdf41b0e05a84ffa2fea35583dd5e74ade6e1c9e558f9dcbc9c9c37c097ec
+ IsSell: false
+ TokenContractAddress: 0x761D38e5ddf6ccf6Cf7c55759d5210750B5D60F3 
+ TokenPairAddress: 0x41Dbf7a71Ba3F69650cd88C249e422da3845479d
+ AmountIn: 0
+ AmountInMax 0
+ AmountOut: 20000000000000000000000000000
+ AmountOutMin: 0
+ Gas Price: 49500000000
+
+ Hash: 0xf4cc0b8337b03fe532ecd08248c01015a74e7e3ffacef3d688efe7bbd01638db
+ IsSell: true
+ TokenContractAddress: 0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2 
+ TokenPairAddress: 0x0Bc4428491010DfEAa97E48C70bF4940fa783b40
+ AmountIn: 68059575640173054407298641
+ AmountInMax 0
+ AmountOut: 0
+ AmountOutMin: 1469261798547707083
+ Gas Price: 49000000000
+
+ Hash: 0x3db5c0be5cf308b5453194a861440f1d4770e03a85b164e1e2bca916310ddc0c
+ IsSell: false
+ TokenContractAddress: 0x15B543e986b8c34074DFc9901136d9355a537e7E 
+ TokenPairAddress: 0x41Dbf7a71Ba3F69650cd88C249e422da3845479d
+ AmountIn: 0
+ AmountInMax 0
+ AmountOut: 0
+ AmountOutMin: 2177111856179119878602
+ Gas Price: 48000000000
+
+ Hash: 0xa8f255806c94c99ef31aa6a58d33fdc7cf97fad177dbb69813b90770a973ff4e
+ IsSell: true
+ TokenContractAddress: 0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2 
+ TokenPairAddress: 0xCaD475674dC49686a9F11CAe29E4D26dD4BcE38d
+ AmountIn: 60304340012135648703040
+ AmountInMax 0
+ AmountOut: 0
+ AmountOutMin: 183548378987564612
+ Gas Price: 53100000000
+
+ Hash: 0xfabfc1c3977f8dc945877c5979f328abcb8c865d611638fdee7c30cadff2d9f6
+ IsSell: false
+ TokenContractAddress: 0xCC4304A31d09258b0029eA7FE63d032f52e44EFe 
+ TokenPairAddress: 0xD90a1ba0cbaaaabfdC6C814cDF1611306A26E1f8
+ AmountIn: 0
+ AmountInMax 0
+ AmountOut: 3000000000000000000000
+ AmountOutMin: 0
+ Gas Price: 49500000000
+
+ Hash: 0x16031227735876cd81988b86333881c4b5a8de0b9a6b1f091bbfa25aeac42911
+ IsSell: false
+ TokenContractAddress: 0x6db14800250ab560263681629D132Ecac570Df77 
+ TokenPairAddress: 0x41Dbf7a71Ba3F69650cd88C249e422da3845479d
+ AmountIn: 134083332986584721232
+ AmountInMax 0
+ AmountOut: 0
+ AmountOutMin: 6538122702277394509002645
+ Gas Price: 50000000000
+
+ Hash: 0x9800776c175fa4cb85c1f79262566b9d342c2e02607ae8f18b9c6d20c983b873
+ IsSell: false
+ TokenContractAddress: 0x9e547061A345015869D26C7B6Ee4aB5b63424441 
+ TokenPairAddress: 0x41Dbf7a71Ba3F69650cd88C249e422da3845479d
+ AmountIn: 0
+ AmountInMax 0
+ AmountOut: 0
+ AmountOutMin: 67009535924746286464
+ Gas Price: 45000000000
+
+ Hash: 0x313c7e652c3918d2c683ea69e5927b3c3c792ff5f817dde73f548812908b8881
+ IsSell: false
+ TokenContractAddress: 0x2F141Ce366a2462f02cEA3D12CF93E4DCa49e4Fd 
+ TokenPairAddress: 0x41Dbf7a71Ba3F69650cd88C249e422da3845479d
+ AmountIn: 0
+ AmountInMax 0
+ AmountOut: 0
+ AmountOutMin: 124524135087965976379158594
+ Gas Price: 100000000000
+
+ Hash: 0xbc80e112fb8dd68234c07431e620fdf9b8f79fe6bbdc4dd36e902c7739f1e664
+ IsSell: false
+ TokenContractAddress: 0x6db14800250ab560263681629D132Ecac570Df77 
+ TokenPairAddress: 0x41Dbf7a71Ba3F69650cd88C249e422da3845479d
+ AmountIn: 3000000000
+ AmountInMax 0
+ AmountOut: 0
+ AmountOutMin: 60505947754646986580729209
+ Gas Price: 48000000000
+
+ Hash: 0xcfce8f517deb1cb89e3924ef54b7a46b5f66d59b8d2a6580924296a118ef0679
+ IsSell: true
+ TokenContractAddress: 0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2 
+ TokenPairAddress: 0x4fc47579eCf6Aa76677ee142B6b75FaF9EeafbA8
+ AmountIn: 3775652392781207614895
+ AmountInMax 0
+ AmountOut: 0
+ AmountOutMin: 1175235197765463220
+ Gas Price: 57000000000
+
+ Hash: 0x11ccc32e8241a570ca46767f260e8e9269acd0eb27fe8e266089b80ea41ed7d7
+ IsSell: false
+ TokenContractAddress: 0x2B1Fe2cea92436E8C34B7C215Af66Aaa2932a8b2 
+ TokenPairAddress: 0x41Dbf7a71Ba3F69650cd88C249e422da3845479d
+ AmountIn: 655263730075632303657250646214
+ AmountInMax 0
+ AmountOut: 0
+ AmountOutMin: 1510433579585583900888064
+ Gas Price: 51000000000
+
+ Hash: 0xdb393ec5d814f2ac69d4a5b5b996e6d66c5fa033a0ad819fb6f26b13a4dddfc1
+ IsSell: false
+ TokenContractAddress: 0x7F3EDcdD180Dbe4819Bd98FeE8929b5cEdB3AdEB 
+ TokenPairAddress: 0x41Dbf7a71Ba3F69650cd88C249e422da3845479d
+ AmountIn: 0
+ AmountInMax 0
+ AmountOut: 0
+ AmountOutMin: 101840297095664005125
+ Gas Price: 61000000000
+
+ Hash: 0x911e5fb7d49cf54a9ec01e2826275dc3fefc7a22126fd0b5160cf48b1918ddaf
+ IsSell: false
+ TokenContractAddress: 0x1796ae0b0fa4862485106a0de9b654eFE301D0b2 
+ TokenPairAddress: 0x41Dbf7a71Ba3F69650cd88C249e422da3845479d
+ AmountIn: 0
+ AmountInMax 0
+ AmountOut: 100000000000000000000
+ AmountOutMin: 0
+ Gas Price: 48400000000
+
+ Hash: 0xcc258e01c5dc7d1866bf520ec615a05ca6c60bda7bbbe55e76c971ae5bc5f221
+ IsSell: false
+ TokenContractAddress: 0x2F141Ce366a2462f02cEA3D12CF93E4DCa49e4Fd 
+ TokenPairAddress: 0x41Dbf7a71Ba3F69650cd88C249e422da3845479d
+ AmountIn: 0
+ AmountInMax 2371903633
+ AmountOut: 128000000000000000000000000
+ AmountOutMin: 0
+ Gas Price: 48000000000
+
+ Hash: 0x7eef28e9dad8344d21adbf8c754d157d0665cc03d14ed5d9d648b5fae78d1af5
+ IsSell: true
+ TokenContractAddress: 0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2 
+ TokenPairAddress: 0x718Dd8B743ea19d71BDb4Cb48BB984b73a65cE06
+ AmountIn: 2897082155689886092820
+ AmountInMax 0
+ AmountOut: 0
+ AmountOutMin: 25161513245315063
+ Gas Price: 49000000000
+
+ Hash: 0xb4fbdffbf3d411f73c79ac78948556ef486e2b30cb350b67fe083f5f8dfa96cd
+ IsSell: false
+ TokenContractAddress: 0x6db14800250ab560263681629D132Ecac570Df77 
+ TokenPairAddress: 0x41Dbf7a71Ba3F69650cd88C249e422da3845479d
+ AmountIn: 2583226006771656805739
+ AmountInMax 0
+ AmountOut: 0
+ AmountOutMin: 125079411541266892521784281
+ Gas Price: 49000000000
+
+ Hash: 0x43ee8699ef7d9f95ececf20a65eb0747fe5f70c25e9156823e019f37c8bb2f90
+ IsSell: false
+ TokenContractAddress: 0x6db14800250ab560263681629D132Ecac570Df77 
+ TokenPairAddress: 0x41Dbf7a71Ba3F69650cd88C249e422da3845479d
+ AmountIn: 0
+ AmountInMax 0
+ AmountOut: 40000000000000000000000000
+ AmountOutMin: 0
+ Gas Price: 52800000000
+
+ Hash: 0xfc01aff132b96cf9e5d30206c6fe5c62f4c752f8601d36483abe5de765fa1218
+ IsSell: false
+ TokenContractAddress: 0x26E43759551333e57F073bb0772F50329A957b30 
+ TokenPairAddress: 0x41Dbf7a71Ba3F69650cd88C249e422da3845479d
+ AmountIn: 0
+ AmountInMax 20395261230
+ AmountOut: 5000000000000000000000
+ AmountOutMin: 0
+ Gas Price: 65000000000
+
+ Hash: 0x4b96cd094641ab854341d0ac4e68ebf31b5b3e306bb42dbde6b5b6744e584748
+ IsSell: true
+ TokenContractAddress: 0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2 
+ TokenPairAddress: 0xF3e0E2b277Fa9b0756a4089EED3bE1C1E87feF89
+ AmountIn: 20925731524865863388
+ AmountInMax 0
+ AmountOut: 0
+ AmountOutMin: 309236154105293120
+ Gas Price: 53000000000
+
+ Hash: 0x55e5f44f3493e20eba12fb334e2ff868b4cd2f7b1c2dd63592a536b61bd03fe8
+ IsSell: true
+ TokenContractAddress: 0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2 
+ TokenPairAddress: 0xB4e16d0168e52d35CaCD2c6185b44281Ec28C9Dc
+ AmountIn: 0
+ AmountInMax 5946498370
+ AmountOut: 2500000000000000000
+ AmountOutMin: 0
+ Gas Price: 48000000000
+
+ Hash: 0x37939f3d5a8ee2c0111b9f6f35ec49a49dff55f34b61b9742a66a8565b812abd
+ IsSell: true
+ TokenContractAddress: 0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2 
+ TokenPairAddress: 0x75F89FfbE5C25161cBC7e97c988c9F391EaeFAF9
+ AmountIn: 22364030185037936
+ AmountInMax 0
+ AmountOut: 0
+ AmountOutMin: 50019119045198538
+ Gas Price: 51000000000
+
+ Hash: 0x70b662e3b6bbafccfe3b771aff705ce8448310f3aeafc54bfd02547bc5f9fe0e
+ IsSell: false
+ TokenContractAddress: 0xA2b4C0Af19cC16a6CfAcCe81F192B024d625817D 
+ TokenPairAddress: 0x41Dbf7a71Ba3F69650cd88C249e422da3845479d
+ AmountIn: 0
+ AmountInMax 0
+ AmountOut: 0
+ AmountOutMin: 11367350054259819364537
+ Gas Price: 45000001459
+
+ Hash: 0xf9fc7ef41352708e129f83aacb5be9817c44bb4c37d31278b57519f4ffa99c9b
+ IsSell: true
+ TokenContractAddress: 0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2 
+ TokenPairAddress: 0x0d4a11d5EEaaC28EC3F61d100daF4d40471f1852
+ AmountIn: 0
+ AmountInMax 2330350256
+ AmountOut: 1000000000000000000
+ AmountOutMin: 0
+ Gas Price: 45000000000
+
+ Hash: 0x54938ff6488294b8864d1e55b9a173d616bc901eae237b55e1167ae6a1dc04e3
+ IsSell: true
+ TokenContractAddress: 0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2 
+ TokenPairAddress: 0xF3e0E2b277Fa9b0756a4089EED3bE1C1E87feF89
+ AmountIn: 769721294669760796
+ AmountInMax 0
+ AmountOut: 0
+ AmountOutMin: 11421673263796225
+ Gas Price: 52800000000
+
+ Hash: 0x816433c6d97153703f5bbde3eb376a0046e2861a9d5acae5f605d31bb7a1473f
+ IsSell: false
+ TokenContractAddress: 0xdAC17F958D2ee523a2206206994597C13D831ec7 
+ TokenPairAddress: 0x0d4a11d5EEaaC28EC3F61d100daF4d40471f1852
+ AmountIn: 43906836600990000000000
+ AmountInMax 0
+ AmountOut: 0
+ AmountOutMin: 2848480750
+ Gas Price: 50000000000
+
+ Hash: 0x6cfd877825ed899834e47f77147c9096cf301bfacc9bba8444b7bb6d7e985666
+ IsSell: true
+ TokenContractAddress: 0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2 
+ TokenPairAddress: 0x9C4CC862F51B1Ba90485De3502AA058CA4331F32
+ AmountIn: 72180332285335334213
+ AmountInMax 0
+ AmountOut: 0
+ AmountOutMin: 84220834494987995
+ Gas Price: 52000000000
+
+ Hash: 0x756c0064f8a6b4bb15a809dcffe2bd6e58bf4a5ced0c23d4933ffd17d1472a21
+ IsSell: true
+ TokenContractAddress: 0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2 
+ TokenPairAddress: 0xF82d8Ec196Fb0D56c6B82a8B1870F09502A49F88
+ AmountIn: 579556505384897508494
+ AmountInMax 0
+ AmountOut: 0
+ AmountOutMin: 94252467334006018
+ Gas Price: 58000000000
+
+ Hash: 0x026a042ab3dab1af609d0eebf90f69b465ddfba03fda26f09c46389a27004028
+ IsSell: false
+ TokenContractAddress: 0x67B6D479c7bB412C54e03dCA8E1Bc6740ce6b99C 
+ TokenPairAddress: 0x41Dbf7a71Ba3F69650cd88C249e422da3845479d
+ AmountIn: 178811
+ AmountInMax 0
+ AmountOut: 0
+ AmountOutMin: 148192756302278845306
+ Gas Price: 48000000000
+
+ Hash: 0x1fdcd42bac0771934447347e32632b055190231ca8b860f6526a7d22bd3eb39c
+ IsSell: false
+ TokenContractAddress: 0x2F141Ce366a2462f02cEA3D12CF93E4DCa49e4Fd 
+ TokenPairAddress: 0x41Dbf7a71Ba3F69650cd88C249e422da3845479d
+ AmountIn: 0
+ AmountInMax 0
+ AmountOut: 0
+ AmountOutMin: 15902271232040209122183333
+ Gas Price: 60000000000
+
+ Hash: 0x72502c5d8e834bd101f997002a0e47b21d86d208e4682411ff48febe48fdb247
+ IsSell: false
+ TokenContractAddress: 0xb753428af26E81097e7fD17f40c88aaA3E04902c 
+ TokenPairAddress: 0x41Dbf7a71Ba3F69650cd88C249e422da3845479d
+ AmountIn: 0
+ AmountInMax 3629960521
+ AmountOut: 2500000000000000000
+ AmountOutMin: 0
+ Gas Price: 48000000000
+
+ Hash: 0x970e396b5fa2b4a073fcdb448ea51c0dc6dacf0e7c8cddd54603c729e95b7023
+ IsSell: false
+ TokenContractAddress: 0x3301Ee63Fb29F863f2333Bd4466acb46CD8323E6 
+ TokenPairAddress: 0x41Dbf7a71Ba3F69650cd88C249e422da3845479d
+ AmountIn: 0
+ AmountInMax 0
+ AmountOut: 0
+ AmountOutMin: 707182627024605765050354742
+ Gas Price: 52000000000
+
+ Hash: 0x7a799349429cf3c73731f46a79fdb0746acbb049df88fde746afb4bff26cf2ce
+ IsSell: false
+ TokenContractAddress: 0x3Ea50B7Ef6a7eaf7E966E2cb72b519C16557497c 
+ TokenPairAddress: 0x41Dbf7a71Ba3F69650cd88C249e422da3845479d
+ AmountIn: 331805099335785077481917
+ AmountInMax 0
+ AmountOut: 0
+ AmountOutMin: 9057815629268942222104
+ Gas Price: 52000000000
+
+ Hash: 0xa6b783c0ab99aff9d4b6d3d1eda8e86f3ec1dfcd009ffc1bd00f2f688498ef08
+ IsSell: false
+ TokenContractAddress: 0x88ACDd2a6425c3FaAE4Bc9650Fd7E27e0Bebb7aB 
+ TokenPairAddress: 0x41Dbf7a71Ba3F69650cd88C249e422da3845479d
+ AmountIn: 70000000000000000000
+ AmountInMax 0
+ AmountOut: 0
+ AmountOutMin: 65136886440538843431
+ Gas Price: 56006000000
+
+ Hash: 0xbdb86ee235349f91f9e969215a2e8e70a859e21878175998bcdb5024fc47339d
+ IsSell: false
+ TokenContractAddress: 0x4Bb3205bf648B7F59EF90Dee0F1B62F6116Bc7ca 
+ TokenPairAddress: 0x41Dbf7a71Ba3F69650cd88C249e422da3845479d
+ AmountIn: 0
+ AmountInMax 0
+ AmountOut: 0
+ AmountOutMin: 742397309545339819027
+ Gas Price: 44000000001
+
