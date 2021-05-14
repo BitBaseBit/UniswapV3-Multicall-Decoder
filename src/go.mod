@@ -1,4 +1,4 @@
-module github.com/BitBaseBit/FlashGods/goDir
+module github.com/BitBaseBit/UniswapV3-Multicall-Decoder/src
 
 go 1.16
 
