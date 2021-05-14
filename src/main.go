@@ -55,27 +55,35 @@ func decodeMulticallInput(txInput string) {
 		rawFunc    := result[0].([][]byte)[i]
 		funcSig, _ := g_uniV3abi.MethodById(rawFunc[:4])
 		inputs, _  := funcSig.Inputs.UnpackValues(rawFunc[4:])
-		fmt.Printf("funcSig: %v\n", funcSig)
-		fmt.Printf("inputs: %v\n", inputs)
 		if funcSig.Name == "exactInputSingle" {
 			var exactInputSingle _common.ExactInputSingleParams
-			exactInputSingle = inputs[0].(struct { TokenIn common.Address "json:\"tokenIn\""; 
-												   TokenOut common.Address "json:\"tokenOut\"";
-												   Fee *big.Int "json:\"fee\"";
-												   Recipient common.Address "json:\"recipient\"";
-												   Deadline *big.Int "json:\"deadline\"";
-												   AmountIn *big.Int "json:\"amountIn\"";
-												   AmountOutMinimum *big.Int "json:\"amountOutMinimum\"";
-												   SqrtPriceLimitX96 *big.Int "json:\"sqrtPriceLimitX96\"" 
-											     })
-			 fmt.Printf("exactInputSingle: %v\n", exactInputSingle)
+			params := inputs[0].(struct { TokenIn common.Address "json:\"tokenIn\""; 
+										  TokenOut common.Address "json:\"tokenOut\"";
+										  Fee *big.Int "json:\"fee\"";
+										  Recipient common.Address "json:\"recipient\"";
+										  Deadline *big.Int "json:\"deadline\"";
+										  AmountIn *big.Int "json:\"amountIn\"";
+										  AmountOutMinimum *big.Int "json:\"amountOutMinimum\"";
+										  SqrtPriceLimitX96 *big.Int "json:\"sqrtPriceLimitX96\"" 
+									    })
+
+			exactInputSingle.FuncName 		   = funcSig.Name
+			exactInputSingle.TokenIn           = params.TokenIn
+			exactInputSingle.TokenOut          = params.TokenOut
+			exactInputSingle.Fee               = params.Fee
+			exactInputSingle.Recipient         = params.Recipient
+			exactInputSingle.Deadline          = params.Deadline
+			exactInputSingle.AmountIn          = params.AmountIn
+			exactInputSingle.AmountOutMinimum  = params.AmountOutMinimum
+			exactInputSingle.SqrtPriceLimitX96 = params.SqrtPriceLimitX96
+			fmt.Println(exactInputSingle)
 
 		} else if funcSig.Name == "selfPermit" {
 			rArray := inputs[4].([32]byte)
 			sArray := inputs[5].([32]byte)
 
 			selfPermit := _common.SelfPermit {
-
+				FuncName:    funcSig.Name,
 				Token: 		inputs[0].(common.Address),
 				Value: 		inputs[1].(*big.Int),
 				Deadline: 	inputs[2].(*big.Int),
@@ -83,10 +91,9 @@ func decodeMulticallInput(txInput string) {
 				R: 	   		hex.EncodeToString(rArray[:]),
 				S: 	   		hex.EncodeToString(sArray[:]),
 			}
-			fmt.Printf("selfPermit: %v\n", selfPermit)
+			fmt.Println(selfPermit)
 		} else if funcSig.Name == "exactOutput" {
 			var exactOutputBytesPath _common.ExactOutPutBytesPath
-//			var exactOutputStringPath _common.ExactOutPutStringPath
 			exactOutputBytesPath = inputs[0].(struct {
 										Path []uint8 "json:\"path\""; 
 										Recipient common.Address "json:\"recipient\""; 
@@ -97,7 +104,6 @@ func decodeMulticallInput(txInput string) {
 			pathBytes := hex.EncodeToString([]byte(exactOutputBytesPath.Path))
 			pathLen := len(pathBytes)/44
 			var pathString []string
-			fmt.Println(pathLen)
 			if pathLen < 4 {
 				for idx := 0; idx < pathLen; idx++ {
 					if idx == 0 {
@@ -119,7 +125,15 @@ func decodeMulticallInput(txInput string) {
 					}
 				}
 			}
-			fmt.Println(pathString)
+			exactOutput := _common.ExactOutPutStringPath {
+				FuncName: 		 funcSig.Name,
+				Path: 			 pathString,
+				Recipient: 		 exactOutputBytesPath.Recipient, 
+				Deadline: 		 exactOutputBytesPath.Deadline,
+				AmountOut:       exactOutputBytesPath.AmountOut,
+				AmountInMaximum: exactOutputBytesPath.AmountInMaximum,
+			}
+			fmt.Println(exactOutput)
 		} else if funcSig.Name == "exactInput" {
 			var exactInputBytesPath _common.ExactInputBytesPath
 			exactInputBytesPath = inputs[0].(struct { Path []uint8 "json:\"path\""; 
@@ -130,7 +144,6 @@ func decodeMulticallInput(txInput string) {
 													 })
 			
 			pathBytes := hex.EncodeToString([]byte(exactInputBytesPath.Path))
-			fmt.Println(pathBytes)
 			pathLen   := len(pathBytes)/44
 			var pathString []string
 			if pathLen < 4 {
@@ -154,8 +167,15 @@ func decodeMulticallInput(txInput string) {
 					}
 				}
 			}
-			fmt.Println(pathString)
-
+			exactInputs := _common.ExactInputStringPath {
+				FuncName: 			funcSig.Name,
+				Path: 				pathString,
+				Recipient: 			exactInputBytesPath.Recipient,
+				Deadline: 			exactInputBytesPath.Deadline,
+				AmountIn: 			exactInputBytesPath.AmountIn,
+				AmountOutMinimum: 	exactInputBytesPath.AmountOutMinimum,
+			}
+			fmt.Println(exactInputs)
 		}
 	}
 }
