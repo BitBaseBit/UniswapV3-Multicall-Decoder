@@ -4,8 +4,8 @@ import (
 	"encoding/hex"
 	"fmt"
     "io/ioutil"
-	"math/big"
 	"log"
+	"math/big"
 	"strings"
 
 	"github.com/ethereum/go-ethereum/accounts/abi"
@@ -14,32 +14,7 @@ import (
 )
 
 
-var (
-	g_uniV3abi 			abi.ABI
-)
-
-
-// Uniswap Router V3 Sigs
-const (
-    g_uniV3Router     		   string = "0xE592427A0AEce92De3Edee1F18E0157C05861564"
-	g_uniswapV3SwapCallback    string = "uniswapV3SwapCallback"
-
-	g_exactInputSingle 		   string = "exactInputSingle"
-	g_exactInput 			   string = "exactInput"
-
-	g_exactOutputSingle        string = "exactOutputSingle"
-	g_exactOutput 			   string = "exactOutput"
-
-	g_uniswapV3SwapCallbackSig string = "fa461e33"
-	g_multicallSig 			   string = "ac9650d8"
-
-	g_exactInputSingleSig 	   string = "414bf389"
-	g_exactInputSig 		   string = "c04b8d59"
-	
-	g_exactOutputSingleSig     string = "db3e2198"
-	g_exactOutputSig 		   string = "f28c0498"
-
-)
+var g_uniV3abi abi.ABI
 
 func decodeMulticallInput(txInput string) {
 	rawData, err   := hex.DecodeString(txInput[2:])
@@ -55,6 +30,7 @@ func decodeMulticallInput(txInput string) {
 		rawFunc    := result[0].([][]byte)[i]
 		funcSig, _ := g_uniV3abi.MethodById(rawFunc[:4])
 		inputs, _  := funcSig.Inputs.UnpackValues(rawFunc[4:])
+
 		if funcSig.Name == "exactInputSingle" {
 			var exactInputSingle _common.ExactInputSingleParams
 			params := inputs[0].(struct { TokenIn common.Address "json:\"tokenIn\""; 
@@ -92,17 +68,18 @@ func decodeMulticallInput(txInput string) {
 				S: 	   		hex.EncodeToString(sArray[:]),
 			}
 			fmt.Println(selfPermit)
+
 		} else if funcSig.Name == "exactOutput" {
 			var exactOutputBytesPath _common.ExactOutPutBytesPath
 			exactOutputBytesPath = inputs[0].(struct {
-										Path []uint8 "json:\"path\""; 
-										Recipient common.Address "json:\"recipient\""; 
-										Deadline *big.Int "json:\"deadline\""; 
-										AmountOut *big.Int "json:\"amountOut\""; 
-										AmountInMaximum *big.Int "json:\"amountInMaximum\"";
-									})
+														Path []uint8 "json:\"path\""; 
+														Recipient common.Address "json:\"recipient\""; 
+														Deadline *big.Int "json:\"deadline\""; 
+														AmountOut *big.Int "json:\"amountOut\""; 
+														AmountInMaximum *big.Int "json:\"amountInMaximum\"";
+												   	 })
 			pathBytes := hex.EncodeToString([]byte(exactOutputBytesPath.Path))
-			pathLen := len(pathBytes)/44
+			pathLen   := len(pathBytes)/44
 			var pathString []string
 			if pathLen < 4 {
 				for idx := 0; idx < pathLen; idx++ {
